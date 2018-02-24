@@ -40,7 +40,7 @@ mongoose.Promise = Promise;
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/redditMongoNewsApp");
 // Database configuration
 // Save the URL of our database as well as the name of our collection
-var databaseUrl = "scraper";
+var databaseUrl = "redditMongoNewsApp";
 var collections = ["scrapedData"];
 
 // Use mongojs to hook the database to the db variable
