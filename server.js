@@ -129,5 +129,5 @@ app.put("/saveart", function(req, res) {
 
 // Set the app to listen on port 3000
 app.listen(port, function() {
-  console.log("App Listening on port " + port);
+  console.log("App running on port " + port + "!");
 });

@@ -3,7 +3,7 @@ body {
 }
 
 li {
-  margin-top: 25px;
+  margin-top: 40px;
 }
 
 button {
@@ -18,6 +18,11 @@ button:hover {
   background-color: #464190;
   font-size: 15px;
   margin-top: 10px;
+}
+
+img {
+  vertical-align: middle;
+  float: left;
 }
 
 .line {
