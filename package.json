@@ -1,0 +1,32 @@
+{
+  "name": "mongo-news-app",
+  "version": "1.0.0",
+  "description": "Reddit Mongo News Unofficial App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandofuentes/mongo-news-app.git"
+  },
+  "author": "Fernando Fuentes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandofuentes/mongo-news-app/issues"
+  },
+  "homepage": "https://github.com/fernandofuentes/mongo-news-app#readme",
+  "dependencies": {
+    "body-parser": "*",
+    "cheerio": "*",
+    "express": "*",
+    "express-handlebars": "*",
+    "handlebars": "*",
+    "logger": "*",
+    "mongojs": "*",
+    "mongoose": "*",
+    "morgan": "*",
+    "request": "*"
+  }
+}
